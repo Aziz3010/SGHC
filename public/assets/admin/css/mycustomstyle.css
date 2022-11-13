@@ -1,0 +1,67 @@
+.width30{
+    width:30%;
+}
+.float_right{
+    float:  right !important;
+}
+.custom_img{
+    width:150px;
+    height: 150px;
+}
+.card_title_center{
+    width: 100%;
+    text-align: center !important;
+}
+
+.user_image_sideNav {
+    padding: .8rem 1rem;
+    text-decoration: none;
+
+}
+
+.custom_thead {
+    background-color: #233490;
+    color: #fff;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+
+.dashboard_bg {
+    background-image: url("../dist/img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.dashboard_bg .layout_bg {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, .6);
+}
+
+.form_groupp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 40px;
+    margin-bottom: 30px;
+}
+
+.sectionStyle {
+    background-color: #f1f1f1;
+}
+
+.display_none {
+    display: none;
+}
+
+.display {
+    display: block;
+}
