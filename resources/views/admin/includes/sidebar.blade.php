@@ -13,7 +13,7 @@
                     </a>
                     <ul class="nav nav-treeview">
                         <li class="nav-item">
-                            <a href="{{url('/admin/settings/rearrange')}}" class="nav-link ">
+                            <a href="{{url('/admin/settingsTwo/rearrange')}}" class="nav-link ">
                                 <i class="far fa-circle nav-icon"></i>
                                 <p>تعديل الاقسام</p>
                             </a>

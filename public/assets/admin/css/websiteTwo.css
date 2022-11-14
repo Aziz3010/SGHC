@@ -1,0 +1,9 @@
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+main section {
+    background-color: #f1f1f1;
+    margin: 10px 0;
+}

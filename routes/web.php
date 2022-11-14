@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\SettingsController;
+use App\Http\Controllers\SettingsTwoController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,11 +15,22 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', [SettingsController::class, "index"]);
+// Route::get('/', [SettingsController::class, "index"]);
+
+// Route::get('/admin', function () {
+//     return view("admin/dashboard");
+// });
+
+// Route::get('/admin/settings/rearrange', [SettingsController::class, "showForms"]);
+// Route::post('/admin/settings/rearrange', [SettingsController::class, "reArrange"]);
+
+// ////////////////////////////////////////////////////////////////////////////////////
+
+Route::get('/', [SettingsTwoController::class, "index"]);
 
 Route::get('/admin', function () {
     return view("admin/dashboard");
 });
 
-Route::get('/admin/settings/rearrange', [SettingsController::class, "showForms"]);
-Route::post('/admin/settings/rearrange', [SettingsController::class, "reArrange"]);
+Route::get('/admin/settingsTwo/rearrange', [SettingsTwoController::class, "showForms"]);
+Route::post('/admin/settingsTwo/rearrange', [SettingsTwoController::class, "reArrange"]);
